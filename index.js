@@ -54,7 +54,7 @@ function handleClick(e) {
     const pickColor = classValue.split(" ")[1];
     makeSoundAndEffect(pickColor);
     seqOfColorsByPlayer.push(pickColor);
-    console.log("seqOfColorsByPlayer :>> ", seqOfColorsByPlayer);
+    //console.log("seqOfColorsByPlayer :>> ", seqOfColorsByPlayer);
 
     if (clickCount === levelCount) {
       if (JSON.stringify(seqOfColors) === JSON.stringify(seqOfColorsByPlayer)) {
